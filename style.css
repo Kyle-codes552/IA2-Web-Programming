@@ -1,0 +1,132 @@
+/* IA#2 PROFESSIONAL CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+/* HEADER (Flexbox) */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #b10606;
+    color: white;
+    padding: 15px 30px;
+}
+
+/* NAV */
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #857d7d, #857d7d);
+    color: white;
+}
+
+.about-home {
+    max-width: 800px;
+    margin: 50px auto;   /* centers the section */
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.about-home h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.about-home p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* PRODUCTS GRID */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* PRODUCT CARD */
+.product {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+/* BUTTON */
+button {
+    background: orange;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+/* FORMS */
+form {
+    width: 300px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* CART */
+#cart {
+    padding: 20px;
+}
+
+.hero {
+    border: 5px solid rgb(0, 0, 0);
+}

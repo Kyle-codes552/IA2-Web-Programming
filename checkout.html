@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Checkout</title>
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+
+        <header>
+            <h1>🚛 Island Haul</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="products.html">Services</a>
+                <a href="cart.html">Cart</a>
+                <a href="login.html">Login</a>
+                <a href="about.html">About</a>
+            </nav>
+        </header>
+
+        <form onsubmit="return processOrder()">
+            <h2>Checkout</h2>
+
+            <input type="text" placeholder="Name" required>
+            <input type="text" placeholder="Address" required>
+            <input type="number" placeholder="Amount" required>
+
+            <button type="submit">Confirm Order</button>
+            <button type="reset">Cancel</button>
+        </form>
+        <script src="../script.js"></script>
+    </body>
+    </html>
+
+    <!--Miss I know there are some parts of this that are not working but for my sanity I will submit what I have-->
